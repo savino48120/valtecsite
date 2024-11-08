@@ -42,7 +42,11 @@ const router = createBrowserRouter([
       <Home/>
     </Layout>
     ),
-    errorElement: <NotFoundPage/>
+    errorElement: (
+      <Layout>
+        <NotFoundPage/>
+      </Layout>
+      )
   },
   {
     path: "/thinking",
