@@ -1,10 +1,14 @@
 import React from "react";
+import Banner from "../../components/banner/Banner";
+import ProjectSection from "./components/ProjectSection";
 
-
-export default function Projects(){
-    return(
-        <div>
-            Have a view of our projects
-        </div>
-    )
+function projectApp() {
+  return (
+    <>
+      <Banner title="Valtec Projects" />
+      <ProjectSection />
+    </>
+  );
 }
+
+export default projectApp;

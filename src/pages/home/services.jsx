@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "./homeServices.css";
 import {
   MdOutlineConstruction,
   MdOutlineCompassCalibration,
@@ -11,7 +12,6 @@ import {
 } from "react-icons/md";
 import { PiMonitor } from "react-icons/pi";
 import { AiOutlineExperiment } from "react-icons/ai";
-
 function ServiceSection() {
   return (
     <Container fluid className=" mb-4">

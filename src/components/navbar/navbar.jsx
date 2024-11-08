@@ -20,12 +20,12 @@ export default function NavBar(){
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-1">
           <Nav className="m-auto">
-            <Nav.Link> <NavLink to="/" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Home</NavLink></Nav.Link>
-            <Nav.Link> <NavLink to="/thinking" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Thinking</NavLink></Nav.Link>
-            <Nav.Link> <NavLink to="/services" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Expertise</NavLink></Nav.Link>
-            <Nav.Link> <NavLink to="/projects" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Partners</NavLink></Nav.Link>
-            <Nav.Link> <NavLink to="/markets" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Careers</NavLink></Nav.Link>
-            <Nav.Link> <NavLink to="/contact" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Contact</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Home</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/thinking" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Thinking</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/services" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Expertise</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/projects" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Partners</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/markets" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Careers</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/contact" className={({ isActive }) => isActive ? 'text-danger text-decoration-none' : 'text-dark text-decoration-none'}>Contact</NavLink></Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#request-quote">

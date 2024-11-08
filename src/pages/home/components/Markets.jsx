@@ -94,8 +94,8 @@ const Markets = () => {
   };
 
   return (
-    <Container fluid className="marketSection" style={{marginTop:'1rem'}}>
-      <h2 className="marketTitle text-center mb-3 mt-5">
+    <Container fluid className="my-5 marketSection">
+      <h2 className="marketTitle text-center mb-3">
         <FaIndustry /> Markets
       </h2>
       <Tab.Container activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>

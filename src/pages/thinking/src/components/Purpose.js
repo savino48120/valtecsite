@@ -1,25 +1,47 @@
-
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-//import placeholderImg from './placeholder.jpg';
-import CompanyOverview from '../../../../assets/companyOverview.jpg';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+import purpose from '../../../../assets/purpose.jpg';
 
 function Purpose() {
+  useEffect(() => {
+    AOS.init({
+      duration: 950, // Animation duration in milliseconds
+      offset: 50, // Trigger animations 50px before an element is in view
+    });
+  }, []);
+
   return (
     <Container className="my-5">
       <Row>
         <Col md={4}>
-          <img src={CompanyOverview} alt="Purpose" className="img-fluid" />
+          <img
+            src={purpose}
+            alt="Purpose"
+            className="img-fluid"
+            data-aos="fade-left"
+          />
         </Col>
-        <Col md={8}>
-          <h2 className="text-danger">Our Purpose</h2>
+        <Col md={8} >
+          <h2 className="text-danger ps-2" data-aos="fade-up">
+            Our Purpose
+          </h2>
           <ul>
-            <li>Deliver value through technology.</li>
-            <li>Demonstrate leadership with excellence.</li>
-            <li>Think innovatively while embracing new ideas.</li>
-            <li>Operate ethically and with integrity, prioritizing safety and security.</li>
-            <li>Collaborate with unrivaled expertise to solve complex challenges.</li>
-            <li>Share success with our stakeholders.</li>
+            <li data-aos="fade-up">Deliver value through technology.</li>
+            <li data-aos="fade-up">Demonstrate leadership with excellence.</li>
+            <li data-aos="fade-up">
+              Think innovatively while embracing new ideas.
+            </li>
+            <li data-aos="fade-up">
+              Operate ethically and with integrity, prioritizing safety and
+              security.
+            </li>
+            <li data-aos="fade-up">
+              Collaborate with unrivaled expertise to solve complex challenges.
+            </li>
+            <li data-aos="fade-up">Share success with our stakeholders.</li>
           </ul>
         </Col>
       </Row>
