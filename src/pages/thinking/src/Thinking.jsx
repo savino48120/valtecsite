@@ -9,7 +9,7 @@ import valtec_digital from '../../../assets/valtec_digital.jpg';
 import quality_assurance from '../../../assets/quality_assurance.jpg';
 import ethics_and_compliance from '../../../assets/ethics_and_compliance.jpg'
 
-function App() {
+function Thinking() {
   return (
     <>
       {/*<Banner title="Thinking" />*/}
@@ -49,4 +49,4 @@ function App() {
   );
 }
 
-export default App;
+export default Thinking;

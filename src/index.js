@@ -4,7 +4,7 @@ import "./index.css";
 import Layout from "./components/layout/layout.jsx";
 import Home from "./pages/home/home.jsx";
 import Project from "./pages/projects/projects.jsx";
-import Thinking from "./pages/Thinking/src/Thinking.jsx";
+import Thinking from "./pages/thinking/src/Thinking.jsx";
 import Partners from "./pages/partners/partners.jsx";
 import NotFoundPage from "./pages/notfound/notfoundpage.jsx";
 import Markets from "./pages/markets/markets.jsx";

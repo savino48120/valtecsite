@@ -2,7 +2,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselImage from './CarouselImage';
 import '../home.css'
-import DefaultButton from '../../../components/defaultButton';
+//import DefaultButton from '../../../components/defaultButton';
 
 function MainSlider() {
   return (
@@ -13,8 +13,6 @@ function MainSlider() {
           <p className='sliderCaptionMain'> <b> Delivering Value <br/> Through Technology</b></p>
           <p className='sliderCaptionSubtext'>Nulla vitae elit libero, a pharetra augue mollis interdum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue mollis interdum.
           Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <DefaultButton name="Request a Quote" variant="danger"/>
-          <DefaultButton name="Make Enquiries"variant="light"/>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -25,8 +23,6 @@ function MainSlider() {
           <p className='sliderCaptionSubtext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue mollis interdum.
           Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum.
           </p>
-          <DefaultButton name="Request a Quote" variant="danger"/>
-          <DefaultButton name="Make Enquiries"variant="light"/>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -38,8 +34,6 @@ function MainSlider() {
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue mollis interdum.
             Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum.
             </p>
-          <DefaultButton name="Request a Quote" variant="danger"/>
-          <DefaultButton name="Make Enquiries"variant="light"/>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
