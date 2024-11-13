@@ -1,0 +1,28 @@
+.phone-input-container {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+}
+
+.react-international-phone-input-container {
+  width: 100% !important;
+}
+.react-international-phone-country-selector-button {
+  justify-content: space-between !important;
+  padding: 3px 10px !important;
+}
+.react-international-phone-country-selector-button__button-content {
+  width: 100% !important;
+}
+.react-international-phone-input {
+  font-size: 16px !important;
+}
+
+.react-international-phone__flag-dropdown {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100% !important;
+  transform: translateY(-50%);
+  z-index: 1; /* Ensures flag appears over the input */
+}
