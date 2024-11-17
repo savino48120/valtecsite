@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
-import purpose from '../../../../assets/purpose.jpg';
+import purpose from '../../../assets/purpose.jpg';
 import './thinking.css'
 
 function Purpose() {

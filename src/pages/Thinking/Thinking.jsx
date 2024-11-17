@@ -1,14 +1,14 @@
 
 import React from 'react';
-import Banner from '../../../components/banner/Banner'
+import Banner from '../../components/banner/Banner'
 import CompanyOverview from './components/CompanyOverview';
 import Purpose from './components/Purpose';
 import Section from './components/Section';
 import { Container, Row, Col } from 'react-bootstrap';
-import valtec_digital from '../../../assets/valtec_digital.jpg';
-import quality_assurance from '../../../assets/quality_assurance.jpg';
-import ethics_and_compliance from '../../../assets/ethics_and_compliance.jpg'
-import '../src/components/thinking.css'
+import valtec_digital from '../../assets/valtec_digital.jpg';
+import quality_assurance from '../../assets/quality_assurance.jpg';
+import ethics_and_compliance from '../../assets/ethics_and_compliance.jpg'
+import './components/thinking.css'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the CSS styles;
